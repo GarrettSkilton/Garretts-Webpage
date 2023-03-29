@@ -1,0 +1,131 @@
+body {
+    background: rgb(255, 249, 240);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+header { 
+    background: black;
+    background-image: url("keyboard.webp");
+    background-size: 100%;
+    background-position: top;
+    margin: auto;
+    padding: 15px 25px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+
+
+}
+section { 
+    background: rgb(255, 249, 240);
+    color: rgb(36, 37, 37);
+    padding: 40px;
+    display: flex;
+
+}
+div {
+    margin: auto;
+
+}
+.links div a{
+    padding: 20px;
+    background: rgb(255, 249, 240);
+    color: black;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+
+    }
+
+footer { 
+    background: black;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    justify-content: left;
+    background-image: url("keyboard.webp");
+    background-size: 100%;
+    background-position: bottom;
+    padding-bottom: -75px;
+
+
+}
+.lower-section{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-top: -50px;
+    line-height: 45px;
+    padding-right: 75px;
+}
+ul{
+    list-style-type: none;
+    word-spacing: 1px;
+    line-height: 40px;
+    font-size: 17px;
+    text-align: justify;
+    text-justify: distribute;
+    text-align-last: left;
+    
+
+}
+.about-me{
+    text-indent: 55px;
+
+}
+.my-projects{
+    text-indent: 55px;
+
+}
+.professional-history{
+    text-indent: 55px;
+
+}
+.img-me{
+    width: 350px;
+    float: right;
+    margin-left: 45px;
+    margin-top: 10px;
+    box-shadow:
+        1.7px 1.6px 2.4px rgba(0, 0, 0, 0.087),
+        4.2px 3.8px 5.7px rgba(0, 0, 0, 0.125),
+        7.9px 7.1px 10.8px rgba(0, 0, 0, 0.155),
+        14.1px 12.7px 19.2px rgba(0, 0, 0, 0.185),
+        26.3px 23.8px 35.9px rgba(0, 0, 0, 0.223),
+        63px 57px 86px rgba(0, 0, 0, 0.31); 
+    border-radius: 50%;
+}
+.img-graduate{
+    float: left;
+    width: 475px;
+    margin-right: 45px;
+    margin-top: 10px;
+    box-shadow:        
+    -1.7px 1.6px 2.4px rgba(0, 0, 0, 0.087),
+    -4.2px 3.8px 5.7px rgba(0, 0, 0, 0.125),
+    -7.9px 7.1px 10.8px rgba(0, 0, 0, 0.155),
+    -14.1px 12.7px 19.2px rgba(0, 0, 0, 0.185),
+    -26.3px 23.8px 35.9px rgba(0, 0, 0, 0.223),
+    -63px 57px 86px rgba(0, 0, 0, 0.31); 
+
+    border-radius: 25%;
+
+}
+.socials{
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    text-decoration: underline;
+
+}
